@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:background="#0055A4"
+              android:orientation="vertical"
+              android:padding="10dp">
+
+    <EditText
+            android:id="@+id/EditText_InputWordByTheUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="@string/input_hint"
+            android:inputType="textPersonName"
+            android:maxLength="15"
+            android:maxLines="1" />
+
+</LinearLayout>
